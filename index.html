@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franklin Gomez's Resume Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1 id="siteName">Franklin Gomez</h1>
+        <img id="headshot" src="img/franklin-gomez.jfif" alt="">
+
+        <ul id="menu">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+    </header>
+
+
+
+    <main>
+        <p><strong>Purpose:</strong> This is a resume (or CV) to help me get a job in web development.</p>
+        <h2>Experience</h2>
+        <div class="experience">
+            <p class="title">Accenture - Tech Company - 2022-Present</p>
+            <p>Apprenticeship Program</p>
+        </div>
+        <div class="experience">
+            <p class="title">JazzHR - Tech Company - 2021-2022</p>
+            <p>Business Development Representative</p>
+        </div>
+        <div class="experience">
+            <p class="title">Blue Cross & Blue Shield of MA - Healthcare Company - 2019-2020</p>
+            <p>Member Service Representative</p>
+        </div>
+    </main>
+
+    <aside>
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <div id="formInfo"></div>
+            <div>
+                <label for="fullName">Full Name</label>
+            </div>
+            <div>
+                <input id="fullName" type="text">
+            </div>
+            <div>
+                <label for="email">Email</label>
+            </div>
+            <div>
+                <input id ="email" type="email">
+            </div>
+            <div>
+                <label for="subject">Subject</label>
+            </div>
+            <div>
+                <select name="" id="subject">
+                    <option value="">Job Offer</option>
+                    <option value="">Complaint</option>
+                    <option value="">Personal Message</option>
+                </select>
+            </div>
+            <div>
+                <label for="msg">Message</label>
+            </div>
+            <div>
+                <textarea name="" id="msg" cols="30" rows="4"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Send Mail">
+            </div>
+        </form>
+    </aside>
+
+    <footer>
+        &copy; 2022 Copyright - Franklin Gomez
+    </footer>    
+    </div>
+    <script src="dist/main.js"></script>
+</body>
+</html>
